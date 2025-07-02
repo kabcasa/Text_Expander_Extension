@@ -26,11 +26,11 @@ To make the extension work, you must create a **public Google Sheet** (shared wi
 
 ### ✅ Example
 
-| Column A | Column B                                         |
-|----------|--------------------------------------------------|
-| email    | my.professional.email@example.com                |
-| sign     | Kind regards,<br>Jean Dupont                     |
-| thanks   | Thank you for your quick reply.                  |
+| Column A | Column B                          |
+| -------- | --------------------------------- |
+| email    | my.professional.email@example.com |
+| sign     | Kind regards,<br>Jean Dupont      |
+| thanks   | Thank you for your quick reply.   |
 
 ---
 
@@ -59,6 +59,7 @@ To make the extension work, you must create a **public Google Sheet** (shared wi
 
 - Open your Google Sheet
 - The URL will look like this:
+
 # 🚀 Text Expander Extension
 
 This browser extension lets you define shortcuts that are automatically replaced with longer text snippets.  
@@ -82,16 +83,16 @@ To make the extension work, you must create a **public Google Sheet** (shared wi
 
 - **Sheet Name:** Must be named `Raccourci`
 - **Column Structure:**
-  - **Column A:** The shortcut keyword (e.g., `/email`)
+  - **Column A:** The shortcut keyword (e.g., `email`)
   - **Column B:** The full text that replaces the shortcut
 
 ### ✅ Example
 
-| Column A | Column B                                         |
-|----------|--------------------------------------------------|
-| email    | my.professional.email@example.com                |
-| sign     | Kind regards,<br>Jean Dupont                     |
-| thanks   | Thank you for your quick reply.                  |
+| Column A | Column B                          |
+| -------- | --------------------------------- |
+| email    | my.professional.email@example.com |
+| sign     | Kind regards,<br>Jean Dupont      |
+| thanks   | Thank you for your quick reply.   |
 
 ---
 
@@ -120,22 +121,16 @@ To make the extension work, you must create a **public Google Sheet** (shared wi
 
 - Open your Google Sheet
 - The URL will look like this:
-[](https://docs.google.com/spreadsheets/d/1aBcDeFgHiJkLmNoPqRsTuVwXyZ_12345AbCdEfGhIjK/edit)
+  (https://docs.google.com/spreadsheets/d/1aBcDeFgHiJkLmNoPqRsTuVwXyZ_12345AbCdEfGhIjK/edit)
 
 - The part between `/d/` and `/edit` is your **Sheet ID**:
-	1aBcDeFgHiJkLmNoPqRsTuVwXyZ_12345AbCdEfGhIjK
-
+  1aBcDeFgHiJkLmNoPqRsTuVwXyZ_12345AbCdEfGhIjK
 
 ```yaml
 3. Paste that ID into the input field inside the extension
 4. Click **Save** 💾
-
 ---
-
-
-✅ The extension will immediately fetch all shortcuts from your Google Sheet.  
+✅ The extension will immediately fetch all shortcuts from your Google Sheet.
 You can now use them in any text input field across the web 🌐
-
 ---
-
-
+```
